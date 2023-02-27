@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "type": "appInsights.sdk"
+    },
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "storage1": {
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/imagerezierfunctionstora",
+      "type": "storage.azure",
+      "connectionId": "DefaultEndpointsProtocol=https;AccountName=techwithdj;AccountKey=EjInWSiv7Ha6W0UYrkvkGYiOwF7iGn9JVI/OmUpf6owH4oB8227k+aVOzegu5CZmG7BqzlEkaFVi+AStipde5A==;EndpointSuffix=core.windows.net",
+      "dynamicId": null
+    }
+  }
+}
